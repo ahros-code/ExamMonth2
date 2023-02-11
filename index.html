@@ -1,18 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header></header>
-      <main></main>
-    </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+		/>
+		<link rel="stylesheet" href="./css/main.min.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1 class="visually-hidden">The best api for pay</h1>
+		<div class="wrapper">
+			<main>
+				<section id="head">
+					<header id="header">
+						<div class="container">
+							<nav class="navigation">
+								<div class="nav__logo-section">
+									<div class="logo">
+										<a href="#">
+											<img src="/img/logo.svg" alt="site logo" />
+										</a>
+									</div>
+									<ul class="nav__list">
+										<li class="nav__item">
+											<a href="#">Pricing</a>
+										</li>
+										<li class="nav__item">
+											<a href="#">About</a>
+										</li>
+										<li class="nav__item">
+											<a href="#">Contact</a>
+										</li>
+									</ul>
+								</div>
+								<img
+									class="ham__menu"
+									src="./img/menu.svg"
+									alt="hamburger menu"
+								/>
+								<a class="nav__btn" href="#">Schedule a Demo</a>
+							</nav>
+						</div>
+					</header>
+					<section id="hero">
+						<div class="container">
+							<div class="hero__content">
+								<div class="hero__col-left">
+									<h2 class="hero__title">
+										Start building with our APIs for absolutely free.
+									</h2>
+									<form action="https://echo.htmlacademy.ru" method="post">
+										<div class="hero__input-block">
+											<input
+												placeholder="Enter email address"
+												class="hero__input"
+												type="email"
+												name="user_email"
+											/>
+											<button class="hero__input-btn" type="submit">
+												Schedule a Demo
+											</button>
+										</div>
+									</form>
+									<p class="under__input-text">
+										Have any questions? <strong>Contact Us</strong>
+									</p>
+								</div>
 
-    <footer></footer>
-  </body>
+								<div class="hero__col-right">
+									<img
+										class="phone-img"
+										src="./img/phone.svg"
+										alt="phone image"
+									/>
+								</div>
+							</div>
+						</div>
+					</section>
+				</section>
+				<section id="work">
+					<div class="container">
+						<div class="work__content">
+							<div class="work__col-left">
+								<h2 class="work__title">Who we work with</h2>
+								<p class="work__text">
+									Today, millions of people around the world have successfully
+									connected their accounts to apps they love using our API. We
+									provide developers with the tools they need to create easy and
+									accessible experiences for their users.
+								</p>
+								<a class="work__btn" href="#">About Us</a>
+							</div>
+							<div class="work__col-right">
+								<picture>
+									<source
+										media="(max-width: 500px)"
+										srcset="./img/companies-mobile.svg"
+									/>
+									<img src="./img/companies.svg" alt="" />
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="api-wrapper">
+					<section id="implement">
+						<div class="container">
+							<div class="implement__content">
+								<div class="implement__col-left">
+									<img class="console-img" src="./img/console.svg" alt="" />
+								</div>
+								<div class="implement__col-right">
+									<h2 class="implement__title">Easy to implement</h2>
+									<p class="implement__text">
+										Our API comes with just a few lines of code. You’ll be up
+										and running in no time. We built our documentation page to
+										integrate payments functionality with ease.
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="ui">
+						<div class="container">
+							<div class="ui__content">
+								<div class="ui__col-left">
+									<h2 class="ui__title">Simple UI & UX</h2>
+									<p class="ui__text">
+										Our pre-built form is easy to integrate in your app or
+										website’s checkout flow and designed to optimize conversion.
+									</p>
+								</div>
+								<div class="ui__col-right">
+									<img
+										class="ui__phones-img"
+										src="./img/ui-phones.svg"
+										alt="two phones img with our app"
+									/>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="finances">
+						<div class="container">
+							<ul class="finances__cards">
+								<li class="finances__card">
+									<h4 class="finances__title">Personal Finances</h4>
+									<p class="finances__text">
+										Consolidate financial data from multiple sources and
+										categorize transactions up to 2 years of history. Analyze
+										reports to reconcile activities in your account.
+									</p>
+								</li>
+								<li class="finances__card">
+									<h4 class="finances__title">Personal Finances</h4>
+									<p class="finances__text">
+										Consolidate financial data from multiple sources and
+										categorize transactions up to 2 years of history. Analyze
+										reports to reconcile activities in your account.
+									</p>
+								</li>
+								<li class="finances__card">
+									<h4 class="finances__title">Personal Finances</h4>
+									<p class="finances__text">
+										Consolidate financial data from multiple sources and
+										categorize transactions up to 2 years of history. Analyze
+										reports to reconcile activities in your account.
+									</p>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</section>
+				<section id="ready">
+					<div class="container">
+						<div class="ready__content">
+							<div class="ready__col-left">
+								<h2 class="ready__title">Ready to start?</h2>
+							</div>
+							<form action="https://echo.htmlacademy.ru" method='post'>
+								<div class="ready__col-right">
+									<input
+										type="text"
+										class="ready__input"
+										placeholder="Enter email address"
+										name='user_email'
+									/>
+									<button class="ready__btn" type='submit'>Schedule a Demo</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer id="footer">
+			<div class="container">
+				<div class="footer__content">
+					<div class="footer__col-left">
+						<div class="footer__logo-block">
+							<div class="footer__logo">
+								<a href="#">
+									<img src="./img/footer-logo.svg" alt="sites logo" />
+								</a>
+							</div>
+							<ul class="footer__list">
+								<li class="footer__item">
+									<a class="footer__link" href="#">Pricing</a>
+								</li>
+								<li class="footer__item">
+									<a class="footer__link" href="#">About</a>
+								</li>
+								<li class="footer__item">
+									<a class="footer__link" href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__col-right">
+						<ul class="footer__social__links-list">
+							<li class="footer__social__links-item">
+								<a href="https://www.facebook.com/" target="_blank">
+									<img src="./img/facebook.svg" alt="facebook logo" />
+								</a>
+							</li>
+							<li class="footer__social__links-item">
+								<a href="https://twitter.com/" target="_blank">
+									<img src="./img/twitter.svg" alt="twitter logo" />
+								</a>
+							</li>
+							<li class="footer__social__links-item">
+								<a href="https://www.linkedin.com/" target="_blank">
+									<img src="./img/linkedin.svg" alt="linkedin logo" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>

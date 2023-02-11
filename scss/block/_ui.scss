@@ -1,0 +1,59 @@
+.ui__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 150px;
+}
+
+.ui__title {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: -0.369231px;
+	color: #36536b;
+	margin-bottom: 24px;
+}
+
+.ui__text {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 28px;
+	color: #6c8294;
+	max-width: 455px;
+}
+
+@media only screen and (max-width: 1068px) {
+	#api-wrapper {
+		background-image: none;
+	}
+
+	.ui__content {
+		flex-direction: column-reverse;
+	}
+
+	.ui__col-left {
+		text-align: center;
+		margin-top: 48px;
+	}
+
+	.ui__text {
+		max-width: 573px;
+	}
+
+	.ui__phones-img {
+		width: 363px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.ui__title {
+		font-size: 36px;
+		line-height: 36px;
+	}
+}
+@media only screen and (max-width: 328px) {
+	.ui__phones-img {
+		width: 328px;
+	}
+}

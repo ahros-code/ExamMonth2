@@ -1,0 +1,69 @@
+#implement {
+	margin-bottom: 100px;
+}
+
+.implement__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.implement__title {
+	font-family: 'DM Serif Display';
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: -0.369231px;
+	color: #36536b;
+	margin-top: 48px;
+}
+
+.implement__text {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 28px;
+	color: #6c8294;
+	max-width: 447px;
+	margin-top: 24px;
+}
+
+#api-wrapper {
+	background-image: url('../../img/api-wrapper-bg.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+@media only screen and (max-width: 1097px) {
+
+	.implement__content {
+		flex-direction: column;
+	}
+
+	.implement__col-right {
+		text-align: center;
+	}
+
+	.implement__text {
+		max-width: 573px;
+	}
+
+	.implement__title {
+		font-size: 48px;
+		line-height: 56px;
+	}
+
+	.console-img {
+		width: 392px;
+	}
+}
+
+@media only screen and (max-width: 453px) {
+	.implement__title {
+		font-size: 36px;
+		line-height: 36px;
+	}
+
+	.console-img {
+		width: 328px;
+	}
+}

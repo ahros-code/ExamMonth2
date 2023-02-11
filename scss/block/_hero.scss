@@ -1,0 +1,150 @@
+#head {
+	background-image: url('../../img/primary-bg.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #edf3f8;
+	margin-bottom: 75px;
+}
+
+.hero__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero__title {
+	max-width: 546px;
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 72px;
+	line-height: 72px;
+	letter-spacing: -0.553846px;
+	color: #36536b;
+	margin-bottom: 21px;
+}
+
+.hero__input-block {
+	max-width: 445px;
+	display: flex;
+	position: relative;
+}
+.hero__input-btn {
+	background: #ba4270;
+	border-radius: 24px;
+	padding: 16px 24.5px 14px 26.5px;
+	border: none;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.115385px;
+	color: #fbfcfe;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	&:active {
+		background: #da6d97;
+	}	
+}
+
+.hero__input {
+	background: #fbfcfe;
+	box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+	border-radius: 24px;
+	border: none;
+	width: 100%;
+	height: 48px;
+	padding-left: 27px;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	color: #36536b;
+	outline: none;
+
+	&::placeholder {
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 18px;
+		color: #36536b;
+		mix-blend-mode: normal;
+		opacity: 0.5;
+	}
+}
+
+.under__input-text {
+	margin-left: 27px;
+	margin-top: 16px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #6c8294;
+}
+
+@media only screen and (max-width: 1014px) {
+	#head {
+		background-image: url('../../img/primary-bg-tablet.png');
+		background-repeat: no-repeat;
+		background-position: top center;
+		padding-bottom: 100px;
+	}
+
+	.phone-img {
+		width: 159px;
+		height: 300px;
+		margin-bottom: 48px;
+	}
+
+	.hero__content {
+		flex-direction: column-reverse;
+	}
+
+	.hero__title {
+		max-width: 570px;
+		font-weight: 400;
+		font-size: 48px;
+		line-height: 56px;
+		text-align: center;
+		letter-spacing: -0.369231px;
+		color: #36536b;
+	}
+
+	.hero__input-block {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.under__input-text {
+		text-align: center;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 412px) {
+	.hero__title {
+		font-size: 32px;
+		line-height: 36px;
+	}
+
+	.hero__input-btn {
+		display: block;
+		position: static;
+		width: 100%;
+		margin-top: 16px;
+	}
+
+	.hero__input-block {
+		position: static;
+		display: block;
+	}
+
+	.under__input-text {
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.phone-img {
+		width: 127.2px;
+		height: 239.73px;
+	}
+}
